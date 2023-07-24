@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* $$$$$$ main shadow */
+.shadow {
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.6);
+}
+/* $$$$$$ main shadow */
+
+/* all home layout related css */
+@layer components
+{
+    .content_btn_Scroller::-webkit-scrollbar {
+        width: 10px;
+    }
+    .content_btn_Scroller::-webkit-scrollbar-track
+    {
+        background-color: #d4f3ce;
+    }
+    .content_btn_Scroller::-webkit-scrollbar-thumb
+    {
+        background-color:#86e390;
+        border-radius: 20px;
+    }
+}
+@layer components
+{
+    .ImageCollectionGrid{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        gap:8px;
+    }
+    .imageContainerCol1{
+        display: grid;
+        grid-template-rows: repeat(auto-fill,220px);
+        gap: 20px;
+    }
+}
+/* all home layout related css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@layer components {
+    .gradient {
+        background: linear-gradient(0deg,rgba(25,27,38,.32),rgba(25,27,38,.72));
+        /* opacity: 0.6; */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+@layer components {
+    .collection-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+    .dashboard-grid {
+        display: grid;
+        grid-template-columns: 15% 85%;
+    }
+    .dashboardMiddleGrid {
+        display: grid;
+        grid-template-rows: 40% 60%;
+    }
+}
+@layer components {
+    .Dash_nav_Shadow {
+        box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.2);
+    }
+}
+@layer components {
+    .uploader_grid {
+        display: grid;
+        grid-template-columns: 425px 425px;
+        gap: 3px;
+    }
+}
+
+
+
+
+@layer components 
+{
+    /* .DashCardGradient {
+        background-image: linear-gradient(to left top, #ce9eee, #c2a5f1, #b8abf3, #afb1f2, #a8b6f0, #a0bef3, #9bc5f4, #99ccf3, #96d7f5, #98e2f5, #a0ebf3, #acf4f0);  background-image: linear-gradient(to right top, #2d405d, #116e8a, #129e9f, #6fcc9d, #d5f294);
+    } */
+    .DashCardGradient1 {
+        background-image: linear-gradient(to top, #e3a1f1, #b0bdff, #7fd3ff, #73e3ff, #92ede8, #a8f0dc, #bef2d3, #d4f3ce, #dbf2cb, #e2f1c8, #e9efc6, #f0eec5);
+    }
+    .DashCardGradient2{
+        background-image: linear-gradient(to right bottom, #edb193, #f6aeaf, #eeb1ce, #d7bbe7, #b8c6f3, #aec8f5, #a4cbf7, #99cdf7, #a1c8fd, #afc1ff, #c2b8fe, #d7aff7);
+    }
+    .DashCardGradient3{
+        background-image: linear-gradient(to bottom, #8d6bf7, #a46df5, #b970f2, #cb73ef, #db77ec, #f272ce, #fd74b3, #ff7c9b, #ff9171, #ebaf57, #c1cc61, #86e390);
+    }
+}
