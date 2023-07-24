@@ -2,6 +2,15 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      'xs': '310px',
+      'sx': '330px',
+      'sm': '520px',
+      'md': '730px',
+      'lg': '920px',
+      'xl': '1230px',
+      '2xl': '1540px',
+    },
     colors: {
       black: "#070707",
       white: "#fdfdfd",

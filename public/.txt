@@ -22,3 +22,7 @@ https://cdn.pixabay.com/photo/2023/06/21/16/26/warnemunde-8079731_1280.jpg
 <i class="bi bi-camera-fill"></i>
 ***** video 
 <i class="bi bi-camera-reels-fill"></i>
+****** hamberger icon
+<i class="bi bi-list"></i>
+%%%%%%%% cross icon of bar
+<i class="bi bi-x"></i>
